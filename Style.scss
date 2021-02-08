@@ -23,3 +23,67 @@ $Tertiary: #99E2D0;
         height: 28px;
     }
 }
+
+// .......................Nav.................................................
+
+nav {
+    display: flex;
+    flex-direction: column;
+    .Localisation {
+        display: flex;
+        justify-content: center;
+        padding: 15px 0 15px 40px;
+        margin-bottom: 20px;
+        input {
+            border: none;
+            margin-left: 15px;
+        }
+    }
+    .Title_Nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        h1 {
+            font-family: "Roboto", sans-serif;
+            display: flex;
+            justify-content: center;
+            text-align-last: center;
+            margin-bottom: 0;
+        }
+        p {
+            font-family: "Roboto", sans-serif;
+            display: flex;
+            font-size: 16px;
+            margin-top: 10px;
+            justify-content: center;
+            text-align-last: center;
+        }
+    }
+    .Container_Btn_Index {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        .Btn {
+            font-family: "Roboto", sans-serif;
+            background: $Secondary;
+            color: white;
+            font-size: 1em;
+            width: 200px;
+            height: 50px;
+            border: none;
+            cursor: pointer;
+            border-radius: 30px;
+            -webkit-border-radius: 30px;
+            -moz-border-radius: 30px;
+            -ms-border-radius: 30px;
+            -o-border-radius: 30px;
+            box-shadow: 5px 5px 10px grey;
+            &:hover {
+                box-shadow: 8px 8px 15px grey;
+                background-color: #ff80db;
+            }
+        }
+    }
+}
