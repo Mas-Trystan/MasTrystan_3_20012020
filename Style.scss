@@ -87,3 +87,67 @@ nav {
         }
     }
 }
+
+// .......................Fonctionnement......................................
+
+.Operation {
+    margin-top: 100px;
+    h2 {
+        font-family: "Roboto", sans-serif;
+        padding-left: 5%;
+        margin-bottom: 30px;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        padding-left: 0%;
+    }
+    li {
+        font-family: "Roboto", sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+        padding-left: 1%;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+    }
+    .Round {
+        position: relative;
+        top: 0px;
+        left: 15px;
+        width: 24px;
+        height: 24px;
+        background: $Primary;
+        border-radius: 60%;
+        -webkit-border-radius: 60%;
+        -moz-border-radius: 60%;
+        -ms-border-radius: 60%;
+        -o-border-radius: 60%;
+    }
+    p {
+        flex-wrap: nowrap;
+        display: flex;
+        align-items: center;
+        font-size: 1em;
+        font-weight: bold;
+        z-index: 1;
+        width: 100%;
+        span {
+            color: #ffffff;
+            font-size: .8em;
+            font-weight: normal;
+        }
+        i {
+            margin: 0 6% 0 9%;
+            color: rgb(162, 162, 162);
+            &:hover {
+                color: $Primary;
+            }
+        }
+    }   
+}
