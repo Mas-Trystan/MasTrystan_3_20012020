@@ -375,4 +375,37 @@ nav .Container_Btn_Index .Btn:hover {
   -ms-transition: all .5s linear;
   -o-transition: all .5s linear;
 }
+
+.Footer {
+  margin-top: 50px;
+  background: #3f3f3f;
+  padding-left: 20px;
+  height: 210px;
+  color: white;
+}
+
+.Footer .Title_Footer {
+  font-family: "Shrikhand";
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0;
+  font-size: 1.1em;
+}
+
+.Footer p {
+  font-family: "Roboto", cursive;
+  margin: 0 0 10px 0;
+}
+
+.Footer i {
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+.Footer a {
+  font-family: "Roboto", cursive;
+  text-decoration: none;
+  color: white;
+  margin: 0;
+}
 /*# sourceMappingURL=Style.css.map */

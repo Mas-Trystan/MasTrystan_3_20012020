@@ -281,3 +281,34 @@ nav {
         }
     }
 }
+
+// .......................Footer..............................................
+
+.Footer {
+    margin-top: 50px;
+    background: rgb(63, 63, 63);
+    padding-left: 20px;
+    height: 210px;
+    color: white;
+    .Title_Footer {
+        font-family: "Shrikhand";
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 0;
+        font-size: 1.1em;
+    }
+    p {
+        font-family: "Roboto", cursive;
+        margin: 0 0 10px 0;
+    }
+    i {
+        margin-right: 10px;
+        font-size: 15px;
+    }
+    a {
+        font-family: "Roboto", cursive;
+        text-decoration: none;
+        color: white;
+        margin: 0;
+    }
+}
