@@ -948,4 +948,153 @@ nav .Container_Btn_Index .Btn:hover {
     margin-right: 0;
   }
 }
+
+@media screen and (min-width: 1025px) {
+  .Operation h2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-left: 0;
+  }
+  .Operation ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .Operation ul li {
+    width: 30%;
+    margin-right: 20px;
+    margin-top: 15px;
+  }
+  .Restaurants {
+    margin-top: 0;
+  }
+  .Restaurants h2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-left: 0;
+    margin-bottom: 50px;
+  }
+  .Restaurants .Cards_Resto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .Restaurants .Cards_Resto .Card {
+    width: 20%;
+  }
+  .Footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .Fond_2 {
+    background-size: 100% 100%;
+  }
+  .Fond_3 {
+    background-size: 100% 100%;
+  }
+  .Fond_4 {
+    background-position: 70% 70%;
+  }
+  .Menus .Bloc_Menu {
+    margin-top: 0;
+  }
+  .Menus .Bloc_Menu .Title_Menus {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 30px;
+  }
+  .Menus .Bloc_Menu .Title_Menus h1 {
+    width: 30%;
+  }
+  .Menus .Bloc_Menu .Title_Menus span {
+    right: 32%;
+  }
+  .Menus .Bloc_Menu .Bloc_Section_Cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 50px;
+  }
+  .Menus .Bloc_Menu .Bloc_Section_Cards .Section_Cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 0;
+    margin-bottom: 20px;
+    width: 30%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  }
+  .Menus .Bloc_Menu .Bloc_Section_Cards .Section_Cards .Title_Section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .Menus .Bloc_Menu .Bloc_Section_Cards .Section_Cards .Card {
+    width: 90%;
+    margin-right: 0;
+  }
+}
 /*# sourceMappingURL=Style.css.map */
