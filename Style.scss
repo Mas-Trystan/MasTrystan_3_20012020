@@ -705,3 +705,106 @@ nav {
         }
     }
 }
+@media screen and (min-width: 1025px) {
+    
+// .......................Index.......................
+
+    .Operation {
+        h2 {
+            display: flex;
+            justify-content: center;
+            padding-left: 0;
+        }
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            li {
+                width: 30%;
+                margin-right: 20px;
+                margin-top: 15px;
+            }
+        }    
+    }
+    .Restaurants {
+        margin-top: 0;
+        h2 {
+            display: flex;
+            justify-content: center;
+            padding-left: 0;
+            margin-bottom: 50px;
+        }
+        .Cards_Resto {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-around;
+            .Card {
+                width: 20%;
+            }
+        }
+    }
+    .Footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }   
+
+// .......................Menus.......................
+
+    .Fond_2 {
+        background-size: 100% 100%;
+    }
+    .Fond_3 {
+        background-size: 100% 100%;
+    }
+    .Fond_4 {
+        background-position: 70% 70%;
+    }
+    .Menus {
+        .Bloc_Menu {
+            margin-top: 0;
+            .Title_Menus {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 30px;
+                h1 {
+                    width: 30%;
+                }
+                span {
+                    right: 32%;
+                }
+            }
+            .Bloc_Section_Cards {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                align-items: center;
+                margin-bottom: 50px;
+                .Section_Cards {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding-left: 0;
+                    margin-bottom: 20px;
+                    width: 30%;
+                    border-radius: 20px;
+                    -webkit-border-radius: 20px;
+                    -moz-border-radius: 20px;
+                    -ms-border-radius: 20px;
+                    -o-border-radius: 20px;
+                    .Title_Section { 
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                    }
+                    .Card {
+                        width: 90%;
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+}
