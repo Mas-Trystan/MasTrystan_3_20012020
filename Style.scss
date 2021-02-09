@@ -343,6 +343,9 @@ nav {
                     padding-left: 10px;
                     padding-top: 15px;
                     font-size: 1.1em;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
                 }
                 p {
                     margin: 5px 0 0px 0;
@@ -353,9 +356,10 @@ nav {
             }
             span {
                 position: absolute;
-                bottom: 10%;
+                top: 195px;
                 right: 8%;
                 font-size: 1.5em;
+                z-index: 1;
                 .Vide {
                     position: relative;
                 }
@@ -735,6 +739,7 @@ nav {
         }
         ul {
             display: flex;
+            flex-wrap: wrap;
             flex-direction: row;
             justify-content: center;
             li {
