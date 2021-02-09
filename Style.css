@@ -141,11 +141,12 @@ nav .Localisation {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 15px 0 15px 40px;
-  margin-bottom: 20px;
+  background: #eaeaea;
 }
 
 nav .Localisation input {
   border: none;
+  background: #eaeaea;
   margin-left: 15px;
 }
 
@@ -160,7 +161,9 @@ nav .Title_Nav {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background: #f1f1f1;
   width: 100%;
+  padding-bottom: 60px;
 }
 
 nav .Title_Nav h1 {
@@ -173,6 +176,7 @@ nav .Title_Nav h1 {
           justify-content: center;
   text-align-last: center;
   margin-bottom: 0;
+  padding-top: 20px;
 }
 
 nav .Title_Nav p {
@@ -188,7 +192,7 @@ nav .Title_Nav p {
   text-align-last: center;
 }
 
-nav .Container_Btn_Index {
+nav .Title_Nav .Container_Btn_Index {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -201,7 +205,7 @@ nav .Container_Btn_Index {
   padding-top: 20px;
 }
 
-nav .Container_Btn_Index .Btn {
+nav .Title_Nav .Container_Btn_Index .Btn {
   font-family: "Roboto", sans-serif;
   background: #FF79DA;
   color: white;
@@ -219,7 +223,7 @@ nav .Container_Btn_Index .Btn {
           box-shadow: 5px 5px 10px grey;
 }
 
-nav .Container_Btn_Index .Btn:hover {
+nav .Title_Nav .Container_Btn_Index .Btn:hover {
   -webkit-box-shadow: 8px 8px 15px grey;
           box-shadow: 8px 8px 15px grey;
   background-color: #ff80db;
@@ -258,8 +262,8 @@ nav .Container_Btn_Index .Btn:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 30px;
-  padding-left: 1%;
+  position: relative;
+  margin-bottom: -15px;
   border-radius: 15px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
@@ -268,12 +272,23 @@ nav .Container_Btn_Index .Btn:hover {
 }
 
 .Operation .Round {
-  position: relative;
-  top: 0px;
-  left: 15px;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 999;
+  left: 4%;
   width: 24px;
   height: 24px;
   background: #9356DC;
+  color: #fff;
+  font-size: .8em;
   border-radius: 60%;
   -webkit-border-radius: 60%;
   -moz-border-radius: 60%;
@@ -290,33 +305,47 @@ nav .Container_Btn_Index .Btn:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-shadow: 5px 5px 10px grey;
+          box-shadow: 5px 5px 10px grey;
   font-size: 1em;
   font-weight: bold;
   z-index: 1;
-  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 35px;
+  background: #f1f1f1;
+  width: 85%;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
 }
 
-.Operation p span {
-  color: #ffffff;
-  font-size: .8em;
-  font-weight: normal;
+.Operation p:hover {
+  -webkit-box-shadow: 10px 10px 15px grey;
+          box-shadow: 10px 10px 15px grey;
+  background: #f5edff;
 }
 
-.Operation p i {
-  margin: 0 6% 0 9%;
-  color: #a2a2a2;
-}
-
-.Operation p i:hover {
+.Operation p:hover:hover i {
   color: #9356DC;
 }
 
+.Operation p i {
+  margin-right: 10%;
+  color: #a2a2a2;
+}
+
 .Restaurants {
-  margin-top: 100px;
+  margin-top: 60px;
+  padding-bottom: 40px;
+  background: #f1f1f1;
 }
 
 .Restaurants h2 {
   font-family: "Roboto", sans-serif;
+  padding-top: 50px;
   padding-left: 5%;
 }
 
@@ -425,6 +454,7 @@ nav .Container_Btn_Index .Btn:hover {
   -moz-border-radius: 0 0 20px 20px;
   -ms-border-radius: 0 0 20px 20px;
   -o-border-radius: 0 0 20px 20px;
+  background: #fff;
 }
 
 .Restaurants .Cards_Resto .Card .Bannieres h3 {
@@ -432,21 +462,21 @@ nav .Container_Btn_Index .Btn:hover {
   width: 75%;
   font-weight: bold;
   padding-left: 10px;
-  padding-top: 10px;
+  padding-top: 15px;
   font-size: 1.1em;
 }
 
 .Restaurants .Cards_Resto .Card .Bannieres p {
-  margin: 5px 0 5px 0;
+  margin: 5px 0 0px 0;
   padding-left: 10px;
+  padding-bottom: 15px;
   font-size: 1em;
-  margin-bottom: 10px;
 }
 
 .Restaurants .Cards_Resto .Card span {
   position: absolute;
   bottom: 10%;
-  right: 10%;
+  right: 8%;
   font-size: 1.5em;
 }
 
@@ -510,7 +540,7 @@ nav .Container_Btn_Index .Btn:hover {
   font-family: "Roboto", sans-serif;
   padding-top: 10px;
   margin-top: -48px;
-  background: #fff;
+  background: #f6f6f6;
   border-radius: 40px 40px 0 0;
   -webkit-border-radius: 40px 40px 0 0;
   -moz-border-radius: 40px 40px 0 0;
@@ -589,8 +619,7 @@ nav .Container_Btn_Index .Btn:hover {
   display: flex;
   overflow: hidden;
   margin-right: 10px;
-  margin-bottom: 30px;
-  height: 62px;
+  margin-bottom: 15px;
   width: 97%;
   cursor: pointer;
   border-radius: 10px;
@@ -601,8 +630,8 @@ nav .Container_Btn_Index .Btn:hover {
 }
 
 .Menus .Bloc_Menu .Section_Cards .Card :hover .Desc_Valid {
-  animation: SlideRight 2s linear;
-  -webkit-animation: SlideRight 2s linear;
+  animation: SlideRight 1s ease-out;
+  -webkit-animation: SlideRight 1s ease-out;
 }
 
 .Menus .Bloc_Menu .Section_Cards .Card :hover .Desc_Valid .Circle {
@@ -613,7 +642,6 @@ nav .Container_Btn_Index .Btn:hover {
 .Menus .Bloc_Menu .Section_Cards .Card .Bloc_Desc {
   background: #ffffff;
   width: 100%;
-  height: 60px;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -622,8 +650,8 @@ nav .Container_Btn_Index .Btn:hover {
 }
 
 .Menus .Bloc_Menu .Section_Cards .Card .Bloc_Desc h2 {
-  font-size: 1.2em;
-  padding-top: 8px;
+  font-size: 20px;
+  padding-top: 10px;
   padding-left: 10px;
   margin: 0;
   width: 85%;
@@ -636,6 +664,7 @@ nav .Container_Btn_Index .Btn:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-bottom: 6px;
 }
 
 .Menus .Bloc_Menu .Section_Cards .Card .Bloc_Desc .Desc_Valid .Desc_Prix {
@@ -657,6 +686,12 @@ nav .Container_Btn_Index .Btn:hover {
 }
 
 .Menus .Bloc_Menu .Section_Cards .Card .Bloc_Desc .Desc_Valid .Desc_Prix strong {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 13.8%;
 }
 
@@ -717,6 +752,8 @@ nav .Container_Btn_Index .Btn:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding-bottom: 60px;
+  padding-top: 15px;
 }
 
 .Menus .Bloc_Menu .Container_Btn_Menus .Btn {
@@ -744,7 +781,6 @@ nav .Container_Btn_Index .Btn:hover {
 }
 
 .Footer {
-  margin-top: 50px;
   background: #3f3f3f;
   padding-left: 20px;
   height: 210px;
@@ -951,7 +987,7 @@ nav .Container_Btn_Index .Btn:hover {
             justify-content: center;
   }
   .Operation ul li {
-    width: 30%;
+    width: 35%;
     margin-right: 20px;
   }
   .Restaurants {
