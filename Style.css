@@ -463,6 +463,9 @@ nav .Title_Nav .Container_Btn_Index .Btn:hover {
   padding-left: 10px;
   padding-top: 15px;
   font-size: 1.1em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .Restaurants .Cards_Resto .Card .Bannieres p {
@@ -474,9 +477,10 @@ nav .Title_Nav .Container_Btn_Index .Btn:hover {
 
 .Restaurants .Cards_Resto .Card span {
   position: absolute;
-  bottom: 10%;
+  top: 195px;
   right: 8%;
   font-size: 1.5em;
+  z-index: 1;
 }
 
 .Restaurants .Cards_Resto .Card span .Vide {
@@ -1007,6 +1011,8 @@ nav .Title_Nav .Container_Btn_Index .Btn:hover {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
