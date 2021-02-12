@@ -458,6 +458,13 @@ nav .Title_Nav .Container_Btn_Index .Btn:hover {
   -ms-border-radius: 0 0 20px 20px;
   -o-border-radius: 0 0 20px 20px;
   background: #fff;
+  -webkit-box-shadow: 5px 5px 10px lightgray;
+          box-shadow: 5px 5px 10px lightgray;
+}
+
+.Restaurants .Cards_Resto .Card .Bannieres:hover {
+  -webkit-box-shadow: 10px 10px 12px lightgray;
+          box-shadow: 10px 10px 12px lightgray;
 }
 
 .Restaurants .Cards_Resto .Card .Bannieres h3 {

@@ -339,6 +339,10 @@ nav {
                 -ms-border-radius: 0 0 20px 20px;
                 -o-border-radius: 0 0 20px 20px;
                 background: #fff;
+                box-shadow: 5px 5px 10px lightgray;
+                &:hover {
+                    box-shadow: 10px 10px 12px lightgray;
+                }
                 h3 {
                     margin: 0;
                     width: 75%;
