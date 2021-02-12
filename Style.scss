@@ -71,8 +71,8 @@ $Tertiary: #99E2D0;
         border-top: 6px solid $Primary;
         border-right: 6px solid $Secondary;
         border-bottom: 6px solid $Tertiary;
-        animation: Rotate 2s linear infinite, Spin 2.5s linear;
-        -webkit-animation: Rotate 2s linear infinite, Spin 2.5s linear;
+        animation: Rotate 2s linear infinite, Spin 2.4s linear;
+        -webkit-animation: Rotate 2s linear infinite, Spin 2.4s linear;
         border-radius: 50%;
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
@@ -490,6 +490,10 @@ nav {
                 -moz-border-radius: 10px;
                 -ms-border-radius: 10px;
                 -o-border-radius: 10px;
+                box-shadow: 5px 5px 10px lightgray;
+                &:hover {
+                    box-shadow: 7px 7px 12px lightgray;
+                }
                 :hover .Desc_Valid {
                     animation: SlideRight 1s linear;
                     -webkit-animation: SlideRight 1s linear;
@@ -506,6 +510,7 @@ nav {
                     -moz-border-radius: 10px;
                     -ms-border-radius: 10px;
                     -o-border-radius: 10px;
+                
                     h2 {
                         font-size: 1.1em;
                         padding-top: 10px;
@@ -562,7 +567,7 @@ nav {
                             }
                         }
                     }
-                }
+            }
             }
             .T_1 {
                 animation: GlissDown 1s ease-in-out 1s;
@@ -860,12 +865,6 @@ nav {
             justify-content: space-around;
             .Card {
                 width: 20%;
-            }
-            .Bannieres {
-                box-shadow: 5px 5px 10px lightgray;
-                &:hover {
-                    box-shadow: 10px 10px 15px lightgray;
-                }
             }
         }
     }

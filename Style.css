@@ -95,8 +95,8 @@ body {
   border-top: 6px solid #9356DC;
   border-right: 6px solid #FF79DA;
   border-bottom: 6px solid #99E2D0;
-  animation: Rotate 2s linear infinite, Spin 2.5s linear;
-  -webkit-animation: Rotate 2s linear infinite, Spin 2.5s linear;
+  animation: Rotate 2s linear infinite, Spin 2.4s linear;
+  -webkit-animation: Rotate 2s linear infinite, Spin 2.4s linear;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -632,6 +632,13 @@ nav .Title_Nav .Container_Btn_Index .Btn:hover {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 10px lightgray;
+          box-shadow: 5px 5px 10px lightgray;
+}
+
+.Bloc_Menus .Bloc_Menu .Section_Cards .Card:hover {
+  -webkit-box-shadow: 7px 7px 12px lightgray;
+          box-shadow: 7px 7px 12px lightgray;
 }
 
 .Bloc_Menus .Bloc_Menu .Section_Cards .Card :hover .Desc_Valid {
@@ -1196,14 +1203,6 @@ nav .Title_Nav .Container_Btn_Index .Btn:hover {
   }
   .Restaurants .Cards_Resto .Card {
     width: 20%;
-  }
-  .Restaurants .Cards_Resto .Bannieres {
-    -webkit-box-shadow: 5px 5px 10px lightgray;
-            box-shadow: 5px 5px 10px lightgray;
-  }
-  .Restaurants .Cards_Resto .Bannieres:hover {
-    -webkit-box-shadow: 10px 10px 15px lightgray;
-            box-shadow: 10px 10px 15px lightgray;
   }
   .Footer {
     display: -webkit-box;
